@@ -67,7 +67,7 @@ installawesomexorg() { \
 
 }
 
-}
+
 configAura || error "Shit"
 
 installawesomexorg || error "User Ctrl+C"
