@@ -49,8 +49,14 @@ windowmanagerconfig || error "User exitted"
 installawesomexorg() { \
 	echo "##################################"
 	echo "##########installaing awesome#####"
-	sudo pacman -S awesome 
+	sudo pacman -S awesome
+	yay -S awesome rofi picom i3lock-fancy xclip ttf-roboto polkit-gnome materia-theme lxappearance flameshot pnmixer network-manager-applet xfce4-power-manager qt5-styleplugins papirus-icon-theme -y
+	git clone https://github.com/ChrisTitusTech/titus-awesome ~/.config/awesome
+
+
 
 }
+
+configAura || error "Shit"
 
 installawesomexorg || error "User Ctrl+C"
