@@ -67,8 +67,6 @@ installawesomexorg() { \
 
 }
 
-endScript() { \
-	dialog --colors --title "\Z7\zbCongratulations!" --yes-label "ok!" --yes "\Z4arch_man_ager has finished configuring your new arch install! please press the button below to quit." 16 60
 }
 configAura || error "Shit"
 
