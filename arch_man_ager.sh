@@ -21,6 +21,7 @@ configAura() { \
     echo "#########################################################"
     sudo pacman -S git
     sudo pacman -S go
+    sudo pacman -S --needed base-devel
     git clone https://aur.archlinux.org/yay.git
     cd yay
     makepkg
