@@ -1,0 +1,14 @@
+xf86-video-intel
+xf86-video-qxl
+xf86-video-amdgpu
+xorg
+xorg-server
+xinit
+xterm
+awesome
+firefox
+gnome-disk-utility
+lxappearance
+openbox
+git
+
